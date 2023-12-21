@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './team-card.component.css'
 })
 export class TeamCardComponent {
-
+  name = "Rajveer choudahary";
+  Profession = "PUBG Player";
+  path = "../../../assets/photos/team member.jpg";
+  LinkedInlink = "#";
+  GitHublink = "#";
 }
