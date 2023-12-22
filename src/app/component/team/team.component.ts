@@ -41,6 +41,13 @@ export class TeamComponent {
         LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
         GitHublink: 'https://github.com/johndoe',
       },
+      {
+        name: 'DD',
+        path: 'path/to/john-doe.jpg',
+        Profession: 'Developer',
+        LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
+        GitHublink: 'https://github.com/johndoe',
+      },
       // Add more team members as needed
     ];
   }
