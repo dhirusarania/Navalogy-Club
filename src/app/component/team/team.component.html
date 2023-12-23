@@ -1,6 +1,55 @@
-<div *ngFor="let member of getTeamMembers()">
-  <app-team-card [member]="member"></app-team-card>
+<div>
+  <div class="bg-amber-500 h-[1px] rounded-full relative w-full my-10">
+    <div
+      class="absolute h-10 w-32 bg-amber-400 text-center rounded-br-lg rounded-bl-lg top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+      <p class=" py-[6px] font-semibold  text-black  ">Members</p>
+    </div>
+  </div>
+  <div class=" flex justify-center gap-16 my-10 ">
+    <button class=" h-10 w-40 bg-white hover:bg-amber-400  text-center rounded-br-lg rounded-bl-lg " 
+    (click)="Mentor()">
+      <p class=" py-[6px] font-semibold  text-black ">Mentor</p>
+    </button>
+    <button class=" h-10 w-40 bg-white hover:bg-amber-400 text-center rounded-br-lg rounded-bl-lg "
+      (click)="CurrentScholars()">
+      <p class=" py-[6px] font-semibold  text-black ">Current Scholars</p>
+    </button>
+    <button class=" h-10 w-40 bg-white hover:bg-amber-400 text-center rounded-br-lg rounded-bl-lg "
+      (click)="Currentmembers()">
+      <p class=" py-[6px] font-semibold  text-black ">Current Members</p>
+    </button>
+    <button class=" h-10 w-40 bg-white hover:bg-amber-400 text-center rounded-br-lg rounded-bl-lg "
+      (click)="foundingmembers()">
+      <p class=" py-[6px] font-semibold  text-black ">Founding Members</p>
+    </button>
+    <button class=" h-10 w-40 bg-white hover:bg-amber-400 text-center rounded-br-lg rounded-bl-lg "
+      (click)="pastmembers()">
+      <p class=" py-[6px] font-semibold  text-black ">Past Members</p>
+    </button>
+  </div>
+  <div class="flex gap-10 flex-wrap justify-between " id="Mentor" > 
+    <div *ngFor="let member of getMentor()">
+      <app-team-card [member]="member"></app-team-card>
+    </div>
+  </div>
+  <div class=" gap-10 flex-wrap justify-between hidden" id="CurrentScholars">
+    <div *ngFor="let member of getCurrentScholars()">
+      <app-team-card [member]="member"></app-team-card>
+    </div>
+  </div>
+  <div class=" gap-10 flex-wrap justify-between hidden" id="Currentmembers">
+    <div *ngFor="let member of getCurrentmembers()">
+      <app-team-card [member]="member"></app-team-card>
+    </div>
+  </div>
+  <div class=" gap-10 flex-wrap justify-between hidden" id="foundingmembers">
+    <div *ngFor="let member of getfoundingmembers()">
+      <app-team-card [member]="member"></app-team-card>
+    </div>
+  </div>
+  <div class=" gap-10 flex-wrap justify-between hidden" id="pastmembers">
+    <div *ngFor="let member of getpastmembers()">
+      <app-team-card [member]="member"></app-team-card>
+    </div>
+  </div>
 </div>
-<!-- <div *ngFor="let member of getmentors()">
-  <app-team-card [member]="member"></app-team-card>
-</div> -->
