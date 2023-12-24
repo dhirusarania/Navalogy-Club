@@ -30,27 +30,27 @@
       <p class=" py-[6px] font-semibold  text-black ">Past Members</p>
     </button>
   </div>
-  <div class="hidden activeclass gap-10 flex-wrap justify-between " id="Mentor">
+  <div class="hidden activeclass gap-10 flex-wrap justify-center " id="Mentor">
     <div *ngFor="let member of getMentor()">
       <app-team-card [member]="member"></app-team-card>
     </div>
   </div>
-  <div class=" gap-10 flex-wrap justify-between hidden" id="CurrentScholars">
+  <div class=" gap-10 flex-wrap justify-center hidden" id="CurrentScholars">
     <div *ngFor="let member of getCurrentScholars()">
       <app-team-card [member]="member"></app-team-card>
     </div>
   </div>
-  <div class=" gap-10 flex-wrap justify-between hidden" id="Currentmembers">
+  <div class=" gap-10 flex-wrap justify-center hidden" id="Currentmembers">
     <div *ngFor="let member of getCurrentmembers()">
       <app-team-card [member]="member"></app-team-card>
     </div>
   </div>
-  <div class=" gap-10 flex-wrap justify-between hidden" id="foundingmembers">
+  <div class=" gap-10 flex-wrap justify-center hidden" id="foundingmembers">
     <div *ngFor="let member of getfoundingmembers()">
       <app-team-card [member]="member"></app-team-card>
     </div>
   </div>
-  <div class=" gap-10 flex-wrap justify-between hidden" id="pastmembers">
+  <div class=" gap-10 flex-wrap justify-center hidden" id="pastmembers">
     <div *ngFor="let member of getpastmembers()">
       <app-team-card [member]="member"></app-team-card>
     </div>

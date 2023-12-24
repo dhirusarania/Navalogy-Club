@@ -36,10 +36,101 @@ export class TeamComponent {
         LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
         GitHublink: 'https://github.com/johndoe',
       },
+      {
+        name: 'CurrentScholars',
+        path: './../../../assets/photos/team member.jpg',
+        Designation: 'Dancer',
+        LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
+        GitHublink: 'https://github.com/johndoe',
+      },
+      {
+        name: 'CurrentScholars',
+        path: './../../../assets/photos/team member.jpg',
+        Designation: 'Dancer',
+        LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
+        GitHublink: 'https://github.com/johndoe',
+      },
+      {
+        name: 'CurrentScholars',
+        path: './../../../assets/photos/team member.jpg',
+        Designation: 'Dancer',
+        LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
+        GitHublink: 'https://github.com/johndoe',
+      },
+      {
+        name: 'CurrentScholars',
+        path: './../../../assets/photos/team member.jpg',
+        Designation: 'Dancer',
+        LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
+        GitHublink: 'https://github.com/johndoe',
+      },
+      {
+        name: 'CurrentScholars',
+        path: './../../../assets/photos/team member.jpg',
+        Designation: 'Dancer',
+        LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
+        GitHublink: 'https://github.com/johndoe',
+      },
+      {
+        name: 'CurrentScholars',
+        path: './../../../assets/photos/team member.jpg',
+        Designation: 'Dancer',
+        LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
+        GitHublink: 'https://github.com/johndoe',
+      },
+      {
+        name: 'CurrentScholars',
+        path: './../../../assets/photos/team member.jpg',
+        Designation: 'Dancer',
+        LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
+        GitHublink: 'https://github.com/johndoe',
+      },
+      {
+        name: 'CurrentScholars',
+        path: './../../../assets/photos/team member.jpg',
+        Designation: 'Dancer',
+        LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
+        GitHublink: 'https://github.com/johndoe',
+      },
+      {
+        name: 'CurrentScholars',
+        path: './../../../assets/photos/team member.jpg',
+        Designation: 'Dancer',
+        LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
+        GitHublink: 'https://github.com/johndoe',
+      },
     ];
   }
   getCurrentmembers(): TeamMember[] {
     return [
+      {
+        name: 'Currentmembers',
+        path: './../../../assets/photos/team member.jpg',
+        Designation: 'Dancer',
+        LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
+        GitHublink: 'https://github.com/johndoe',
+      },
+      {
+        name: 'Currentmembers',
+        path: './../../../assets/photos/team member.jpg',
+        Designation: 'Dancer',
+        LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
+        GitHublink: 'https://github.com/johndoe',
+      },
+      {
+        name: 'Currentmembers',
+        path: './../../../assets/photos/team member.jpg',
+        Designation: 'Dancer',
+        LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
+        GitHublink: 'https://github.com/johndoe',
+      },
+      {
+        name: 'Currentmembers',
+        path: './../../../assets/photos/team member.jpg',
+        Designation: 'Dancer',
+        LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
+        GitHublink: 'https://github.com/johndoe',
+      },
       {
         name: 'Currentmembers',
         path: './../../../assets/photos/team member.jpg',
@@ -58,10 +149,52 @@ export class TeamComponent {
         LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
         GitHublink: 'https://github.com/johndoe',
       },
+      {
+        name: 'foundingmembers',
+        path: './../../../assets/photos/team member.jpg',
+        Designation: 'Dancer',
+        LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
+        GitHublink: 'https://github.com/johndoe',
+      },
+      {
+        name: 'foundingmembers',
+        path: './../../../assets/photos/team member.jpg',
+        Designation: 'Dancer',
+        LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
+        GitHublink: 'https://github.com/johndoe',
+      },
     ];
   }
   getpastmembers(): TeamMember[] {
     return [
+      {
+        name: 'pastmembers',
+        path: './../../../assets/photos/team member.jpg',
+        Designation: 'Dancer',
+        LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
+        GitHublink: 'https://github.com/johndoe',
+      },
+      {
+        name: 'pastmembers',
+        path: './../../../assets/photos/team member.jpg',
+        Designation: 'Dancer',
+        LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
+        GitHublink: 'https://github.com/johndoe',
+      },
+      {
+        name: 'pastmembers',
+        path: './../../../assets/photos/team member.jpg',
+        Designation: 'Dancer',
+        LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
+        GitHublink: 'https://github.com/johndoe',
+      },
+      {
+        name: 'pastmembers',
+        path: './../../../assets/photos/team member.jpg',
+        Designation: 'Dancer',
+        LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
+        GitHublink: 'https://github.com/johndoe',
+      },
       {
         name: 'pastmembers',
         path: './../../../assets/photos/team member.jpg',
