@@ -9,11 +9,13 @@ import { AboutusComponent } from './component/aboutus/aboutus.component';
 import { PortfolioComponent } from './component/portfolio/portfolio.component';
 import { HomeComponent } from './component/home/home.component';
 import { GalleryComponent } from './component/gallery/gallery.component';
+import { PublicationsComponent } from './component/publications/publications.component';
+import { ContactusComponent } from './component/contactus/contactus.component';
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet, NavBarComponent, GalleryComponent, FooterComponent, HomeComponent, TeamCardComponent, TeamComponent, AboutusComponent,
-    PortfolioComponent],
+    PortfolioComponent,PublicationsComponent,ContactusComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
