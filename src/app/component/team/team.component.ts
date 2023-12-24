@@ -20,7 +20,7 @@ export class TeamComponent {
     return [
       {
         name: 'mentor',
-        path: './../../../assets/photos/team member.jpg',
+        path: './../../../assets/photos/team/medhi-sir.png',
         Designation: 'Developer',
         LinkedInlink: 'https://www.linkedin.com/in/johndoe/',
         GitHublink: 'https://github.com/johndoe',
