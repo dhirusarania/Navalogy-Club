@@ -1,0 +1,6 @@
+.deactiveclass{
+    display: none;
+}
+.activeclass{
+    display: flex;
+}

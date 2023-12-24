@@ -11,11 +11,13 @@ import { HomeComponent } from './component/home/home.component';
 import { GalleryComponent } from './component/gallery/gallery.component';
 import { PublicationsComponent } from './component/publications/publications.component';
 import { ContactusComponent } from './component/contactus/contactus.component';
+import { PortfolioItemComponent } from './portfolio-item/portfolio-item.component';
+
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet, NavBarComponent, GalleryComponent, FooterComponent, HomeComponent, TeamCardComponent, TeamComponent, AboutusComponent,
-    PortfolioComponent,PublicationsComponent,ContactusComponent],
+    PortfolioComponent,PublicationsComponent,ContactusComponent,PortfolioItemComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
