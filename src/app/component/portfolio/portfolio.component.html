@@ -3,9 +3,41 @@
 </div>
 <div class="btn mt-10 ">
     <ul class="flex flex-row justify-around ">
-    <li><button class=" text-[#b433ff] hover:bg-[#b433ff] hover:text-white h-10 w-40 rounded-lg">All</button> </li>
-    <li><button class=" text-[#b433ff] hover:bg-[#b433ff] hover:text-white h-10 w-40 rounded-lg">SDN</button></li>
-    <li><button class=" text-[#b433ff] hover:bg-[#b433ff] hover:text-white h-10 w-40 rounded-lg">Cloud/Fog</button></li>
-    <li><button class=" text-[#b433ff] hover:bg-[#b433ff] hover:text-white h-10 w-40 rounded-lg">Hardware</button></li>
+    <li><button  class=" text-[#b433ff] hover:bg-[#b433ff] hover:text-white h-10 w-40 rounded-lg font-semibold" (click)="all()">All</button> </li>
+    
+    <li><button  class=" text-[#b433ff] hover:bg-[#b433ff] hover:text-white h-10 w-40 rounded-lg font-semibold"(click)="SDN()">SDN</button></li>
+    <li><button  class=" text-[#b433ff] hover:bg-[#b433ff] hover:text-white h-10 w-40 rounded-lg font-semibold"(click)="cloud()">Cloud/Fog</button></li>
+    <li><button  class=" text-[#b433ff] hover:bg-[#b433ff] hover:text-white h-10 w-40 rounded-lg font-semibold"(click)="hardware()">Hardware</button></li>
     </ul>
 </div>
+<div class="bg-[#b433ff] h-[2px] rounded-full  w-full mb-10">
+</div>
+
+<div class=" activeclass deactiveclass gap-10 flex-wrap justify-center " id="all">
+    <div >
+      <!-- <img src="./../../../assets/photos/tech company-bro.png" alt="all images"> -->
+      hello1
+    </div>
+</div>
+
+    <div class="hidden   gap-10 flex-wrap justify-center " id="SDN">
+        <div >
+          <!-- <img src="./../../../assets/photos/tech company-amico.png" alt="all images"> -->
+          hello2
+        </div>
+    </div>
+
+    <div class="hidden  gap-10 flex-wrap justify-center " id="cloud">
+        <div >
+          <!-- <img src="./../../../assets/photos/tech company-bro.png" alt="all images"> -->
+          hello3
+        </div>
+        
+    </div>
+
+    <div class="hidden  gap-10 flex-wrap justify-center " id="hardware">
+        <div >
+          <!-- <img src="./../../../assets/photos/tech company-bro.png" alt="all images"> -->hello4
+        </div>
+        
+    </div>
