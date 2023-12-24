@@ -72,40 +72,40 @@ export class TeamComponent {
     ];
   }
   removeclass(): void {
-    let css = document.getElementById("Mentor");
-    css?.classList.add('deactiveclass');
-    let css1 = document.getElementById("CurrentScholars");
-    css1?.classList.remove('activeclass');
-    let css3 = document.getElementById("Currentmembers");
-    css3?.classList.remove('activeclass');
-    let css4 = document.getElementById("foundingmembers");
-    css4?.classList.remove('activeclass');
-    let css5 = document.getElementById("pastmembers");
-    css5?.classList.remove('activeclass');
+    document.getElementById("Mentor")?.classList.remove('activeclass');
+    document.getElementById("CurrentScholars")?.classList.remove('activeclass');
+    document.getElementById("Currentmembers")?.classList.remove('activeclass');
+    document.getElementById("foundingmembers")?.classList.remove('activeclass');
+    document.getElementById("pastmembers")?.classList.remove('activeclass');
+    document.getElementById("Mentor1")?.classList.remove('buttoncolor')
+    document.getElementById("CurrentScholars1")?.classList.remove('buttoncolor');
+    document.getElementById("Currentmembers1")?.classList.remove('buttoncolor');
+    document.getElementById("foundingmembers1")?.classList.remove('buttoncolor');
+    document.getElementById("pastmembers1")?.classList.remove('buttoncolor');
   }
   Mentor(): void {
-    console.log("mentor");
-    document.getElementById("Mentor")?.classList.add('activeclass');
     this.removeclass();
+    document.getElementById("Mentor")?.classList.add('activeclass');
+    document.getElementById("Mentor1")?.classList.add('buttoncolor')
   }
   CurrentScholars(): void {
-    console.log("currentscholers");
     this.removeclass();
     document.getElementById("CurrentScholars")?.classList.add('activeclass');
+    document.getElementById("CurrentScholars1")?.classList.add('buttoncolor');
   }
   Currentmembers(): void {
-    console.log("currentmembers");
     this.removeclass();
-    let css3 = document.getElementById("Currentmembers")?.classList.add('activeclass');
+    document.getElementById("Currentmembers")?.classList.add('activeclass');
+    document.getElementById("Currentmembers1")?.classList.add('buttoncolor');
   }
   foundingmembers(): void {
-    console.log("founding members");
     this.removeclass();
-    let css4 = document.getElementById("foundingmembers")?.classList.add('activeclass');
+    document.getElementById("foundingmembers")?.classList.add('activeclass');
+    document.getElementById("foundingmembers1")?.classList.add('buttoncolor');
   }
   pastmembers(): void {
-    console.log("past members");
     this.removeclass();
-    let css5 = document.getElementById("pastmembers")?.classList.add('activeclass');
+    document.getElementById("pastmembers")?.classList.add('activeclass');
+    document.getElementById("pastmembers1")?.classList.add('buttoncolor');
   }
 }

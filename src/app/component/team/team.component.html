@@ -6,28 +6,31 @@
     </div>
   </div>
   <div class=" flex justify-center gap-16 my-10 ">
-    <button class=" h-10 w-40 bg-white hover:bg-amber-400  text-center rounded-br-lg rounded-bl-lg " 
-    (click)="Mentor()">
+    <button id="Mentor1"
+      class="buttoncolor h-10 w-40 bg-white hover:bg-amber-400  text-center rounded-br-lg rounded-bl-lg "
+      (click)="Mentor()">
       <p class=" py-[6px] font-semibold  text-black ">Mentor</p>
     </button>
-    <button class=" h-10 w-40 bg-white hover:bg-amber-400 text-center rounded-br-lg rounded-bl-lg "
+    <button id="CurrentScholars1"
+      class=" h-10 w-40 bg-white hover:bg-amber-400 text-center rounded-br-lg rounded-bl-lg "
       (click)="CurrentScholars()">
       <p class=" py-[6px] font-semibold  text-black ">Current Scholars</p>
     </button>
-    <button class=" h-10 w-40 bg-white hover:bg-amber-400 text-center rounded-br-lg rounded-bl-lg "
+    <button id="Currentmembers1" class=" h-10 w-40 bg-white hover:bg-amber-400 text-center rounded-br-lg rounded-bl-lg "
       (click)="Currentmembers()">
       <p class=" py-[6px] font-semibold  text-black ">Current Members</p>
     </button>
-    <button class=" h-10 w-40 bg-white hover:bg-amber-400 text-center rounded-br-lg rounded-bl-lg "
+    <button id="foundingmembers1"
+      class=" h-10 w-40 bg-white hover:bg-amber-400 text-center rounded-br-lg rounded-bl-lg "
       (click)="foundingmembers()">
       <p class=" py-[6px] font-semibold  text-black ">Founding Members</p>
     </button>
-    <button class=" h-10 w-40 bg-white hover:bg-amber-400 text-center rounded-br-lg rounded-bl-lg "
+    <button id="pastmembers1" class=" h-10 w-40 bg-white hover:bg-amber-400 text-center rounded-br-lg rounded-bl-lg "
       (click)="pastmembers()">
       <p class=" py-[6px] font-semibold  text-black ">Past Members</p>
     </button>
   </div>
-  <div class="flex gap-10 flex-wrap justify-between " id="Mentor" > 
+  <div class="hidden activeclass gap-10 flex-wrap justify-between " id="Mentor">
     <div *ngFor="let member of getMentor()">
       <app-team-card [member]="member"></app-team-card>
     </div>
