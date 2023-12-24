@@ -1,34 +1,34 @@
-<div>
+<div class="my-10">
   <div class=" text-center">
-    <p class=" py-[6px] text-xl font-semibold text-[#CD85F7]">Members</p>
+    <p class=" text-xl font-semibold text-[#b433ff]">Members</p>
   </div>
   <div class=" grid xl:grid-cols-5 md:grid-cols-4 sm:grid-cols-2 grid-cols-3 place-items-center gap-11 mb-2 mt-10 ">
     <button id="Mentor1"
-      class="buttoncolor h-10 w-40   bg-white hover:bg-[#CD85F7]  text-center rounded-br-lg rounded-bl-lg "
+      class="buttoncolor h-10 w-40   bg-white hover:bg-[#b433ff]  text-center rounded-b-lg rounded-t-lg "
       (click)="Mentor()">
-      <p class=" py-[6px] hover:text-white font-semibold  text-[#CD85F7] ">Mentor</p>
+      <p class=" py-[6px] hover:text-white font-semibold  text-[#b433ff] ">Mentor</p>
     </button>
     <button id="CurrentScholars1"
-      class=" h-10 w-40  bg-white hover:bg-[#CD85F7] text-center rounded-br-lg rounded-bl-lg "
+      class=" h-10 w-40  bg-white hover:bg-[#b433ff] text-center rounded-b-lg rounded-t-lg "
       (click)="CurrentScholars()">
-      <p class=" py-[6px] hover:text-white font-semibold  text-[#CD85F7] ">Current Scholars</p>
+      <p class=" py-[6px] hover:text-white font-semibold  text-[#b433ff] ">Current Scholars</p>
     </button>
     <button id="Currentmembers1"
-      class=" h-10 w-40  bg-white hover:bg-[#CD85F7] text-center rounded-br-lg rounded-bl-lg "
+      class=" h-10 w-40  bg-white hover:bg-[#b433ff] text-center rounded-b-lg rounded-t-lg "
       (click)="Currentmembers()">
-      <p class=" py-[6px] hover:text-white font-semibold  text-[#CD85F7] ">Current Members</p>
+      <p class=" py-[6px] hover:text-white font-semibold  text-[#b433ff] ">Current Members</p>
     </button>
     <button id="foundingmembers1"
-      class=" h-10 w-40  bg-white hover:bg-[#CD85F7] text-center rounded-br-lg rounded-bl-lg "
+      class=" h-10 w-40  bg-white hover:bg-[#b433ff] text-center rounded-b-lg rounded-t-lg "
       (click)="foundingmembers()">
-      <p class=" py-[6px] hover:text-white font-semibold  text-[#CD85F7] ">Founding Members</p>
+      <p class=" py-[6px] hover:text-white font-semibold  text-[#b433ff] ">Founding Members</p>
     </button>
-    <button id="pastmembers1" class=" h-10 w-40  bg-white hover:bg-[#CD85F7] text-center rounded-br-lg rounded-bl-lg "
+    <button id="pastmembers1" class=" h-10 w-40  bg-white hover:bg-[#b433ff] text-center rounded-b-lg rounded-t-lg "
       (click)="pastmembers()">
-      <p class=" py-[6px] hover:text-white font-semibold  text-[#CD85F7] ">Past Members</p>
+      <p class=" py-[6px] hover:text-white font-semibold  text-[#b433ff] ">Past Members</p>
     </button>
   </div>
-  <div class="bg-[#CD85F7] h-[1px] rounded-full  w-full mb-10">
+  <div class="bg-[#b433ff] h-[1px] rounded-full  w-full mb-10">
   </div>
   <div class="hidden activeclass gap-10 flex-wrap justify-center " id="Mentor">
     <div *ngFor="let member of getMentor()">
