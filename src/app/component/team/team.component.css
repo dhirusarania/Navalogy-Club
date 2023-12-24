@@ -5,5 +5,8 @@
     display: flex;
 }
 .buttoncolor{
-    background-color: rgb(251 191 36 );
+    background-color: #CD85F7;
+}
+.buttoncolor p{
+    color: white;    /* text-decoration: underline #CD85F7; */
 }
