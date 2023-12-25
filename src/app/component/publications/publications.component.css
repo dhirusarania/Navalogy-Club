@@ -1,6 +1,24 @@
-.deactiveclass{
-    display: none;
+.activeclass .textpera {
+    display: block;
+
 }
-.activeclass{
-    display: inline;
+
+button img {
+
+    transition: all 0.4s ease-in;
+}
+
+.activeclass button img {
+    transform: rotate(180deg);
+
+}
+.textpera{
+    /* height: 0px; */
+    transition: all 0.4s ease-in;
+
+}
+.shadowclass{
+    box-shadow: 5px 10px 10px #d081fe;
+
+
 }

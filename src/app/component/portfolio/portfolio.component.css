@@ -1,6 +1,19 @@
-.deactiveclass{
+.deactiveclass {
     display: none;
 }
-.activeclass{
+
+.activeclass {
     display: flex;
+}
+
+.buttoncolor {
+
+    background-color: #b433ff;
+    color: white;
+    /* text-decoration: underline #CD85F7; */
+    box-shadow: 5px 10px 10px #dda1ff;
+}
+.hovershadow{
+    box-shadow: 5px 10px 10px #dda1ff;
+
 }

@@ -6,6 +6,11 @@
 }
 .buttoncolor{
     background-color: #b433ff;
+
+}
+.hovershadow{
+    box-shadow: 5px 10px 10px #dda1ff;
+
 }
 .buttoncolor p{
     color: white;    /* text-decoration: underline #CD85F7; */
