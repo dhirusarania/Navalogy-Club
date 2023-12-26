@@ -8,38 +8,39 @@ import { Component } from '@angular/core';
   styleUrl: './publications.component.css'
 })
 export class PublicationsComponent {
-
-  removeclass(): void {
-    document.getElementById("01")?.classList.remove('activeclass');
-    document.getElementById("02")?.classList.remove('activeclass');
-    document.getElementById("03")?.classList.remove('activeclass');
-    document.getElementById("04")?.classList.remove('activeclass');
-  }
   first(): void {
-    this.removeclass();
-    document.getElementById("01")?.classList.add('activeclass');
-    // document.getElementById("btn1")?.classList.add('rotatebutton');
-    console.log('01');
+    let a = document.getElementById("01");
+    if (a?.classList.contains("activeclass"))
+
+      a?.classList.remove('activeclass');
+    else
+      a?.classList.add('activeclass');
   };
   second(): void {
-    this.removeclass();
-    document.getElementById("02")?.classList.add('activeclass');
-    // document.getElementById("btn2")?.classList.add('rotatebutton');
-    console.log('02');
+    let a = document.getElementById("02");
+    if (a?.classList.contains("activeclass"))
+
+      a?.classList.remove('activeclass');
+    else
+      a?.classList.add('activeclass');
   };
 
   third(): void {
-    this.removeclass();
-    document.getElementById("03")?.classList.add('activeclass');
-    // document.getElementById("btn3")?.classList.add('rotatebutton');
-    console.log('03');
+    let a = document.getElementById("03");
+    if (a?.classList.contains("activeclass"))
+
+      a?.classList.remove('activeclass');
+    else
+      a?.classList.add('activeclass');
   };
 
   forth(): void {
-    this.removeclass();
-    document.getElementById("04")?.classList.add('activeclass');
-    // document.getElementById("btn4")?.classList.add('rotatebutton');
-    console.log('04');
+    let a = document.getElementById("04");
+    if (a?.classList.contains("activeclass"))
+
+      a?.classList.remove('activeclass');
+    else
+      a?.classList.add('activeclass');
   };
 
 }
