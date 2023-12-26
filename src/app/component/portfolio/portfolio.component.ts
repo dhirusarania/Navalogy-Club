@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { PortfolioItemComponent } from '../../portfolio-item/portfolio-item.component';
+import { PortfolioItemComponent } from '../portfolio-item/portfolio-item.component';
 
 
 @Component({
