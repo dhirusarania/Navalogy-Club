@@ -13,12 +13,13 @@ import { PublicationsComponent } from './component/publications/publications.com
 import { ContactusComponent } from './component/contactus/contactus.component';
 import { PortfolioItemComponent } from './component/portfolio-item/portfolio-item.component';
 import { Page404Component } from './page-404/page-404.component';
+import { ScrolltopComponent } from './component/scrolltop/scrolltop.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, NavBarComponent, GalleryComponent, FooterComponent, HomeComponent, TeamCardComponent, TeamComponent, AboutusComponent,
-    PortfolioComponent, PublicationsComponent, ContactusComponent, PortfolioItemComponent, Page404Component, RouterOutlet, RouterLink, RouterLinkActive],
+  imports: [CommonModule,RouterLink, RouterOutlet, NavBarComponent, GalleryComponent, FooterComponent, HomeComponent, TeamCardComponent, TeamComponent, AboutusComponent,
+    PortfolioComponent,ScrolltopComponent, PublicationsComponent, ContactusComponent, PortfolioItemComponent, Page404Component, RouterOutlet, RouterLink, RouterLinkActive],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
